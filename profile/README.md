@@ -1,216 +1,110 @@
 # Open Engineering Elements
 
-Building engineering from reusable elements.
+Building the language of reusable engineering.
 
 ![Open Engineering Elements hero banner](./hero-banner.png)
 
 Open Engineering Elements is part of the Open Engineering ecosystem.
 
-Its mission is to create, maintain, and evolve reusable engineering elements that can be composed into larger artifacts, systems, experiences, and solutions.
+Its mission is to define the common foundation upon which reusable engineering assets can be created, validated, shared, and composed.
 
-Rather than creating complete products, Open Engineering Elements provides the smallest meaningful building blocks from which other Open Engineering organizations—and potentially entirely different ecosystems—can construct their own reusable assets.
-
-Every element is designed to be:
-
-* modular
-* composable
-* reusable
-* versioned
-* discoverable
-* AI-friendly
-* technology-agnostic
+Rather than maintaining domain-specific content, Open Engineering Elements defines the schema that every engineering element definition must follow. It provides the meta-model that enables independent organizations to build interoperable libraries of reusable engineering elements.
 
 ⸻
 
 ## Why Elements?
 
-Complex engineering rarely starts from nothing.
+Every engineering discipline has reusable building blocks.
 
-Instead, it assembles existing parts into something new.
+Software engineers reuse components.
 
-Software engineers reuse libraries.
+Architects reuse patterns.
 
-Architects reuse design patterns.
+Designers reuse assets.
 
-Designers reuse components.
+Storytellers reuse narrative structures.
 
-Filmmakers reuse shots.
+Educators reuse learning materials.
 
-Storytellers reuse characters.
+Despite their differences, these building blocks share common characteristics:
 
-Game designers reuse assets.
+* they have an identity
+* they have properties
+* they evolve over time
+* they relate to other elements
+* they can be composed into larger systems
 
-AI systems reuse prompts and knowledge.
-
-Open Engineering applies this same philosophy across the entire engineering lifecycle.
-
-Rather than treating every repository as a self-contained project, Open Engineering treats engineering as composition.
-
-Small reusable elements combine to create increasingly sophisticated capabilities.
+Open Engineering Elements provides a common language for describing these building blocks without prescribing what they represent.
 
 ⸻
 
 ## Mission
 
-Our mission is to build an open library of engineering elements that anyone can reuse consistently.
+Our mission is to establish a universal foundation for reusable engineering by defining:
 
-These elements may be visual, textual, structural, executable, educational, or conceptual.
+* the Element Definition Schema
+* common conventions
+* validation rules
+* lifecycle semantics
+* relationships between elements
+* interoperability across repositories and organizations
 
-Every element should have:
+The project intentionally remains domain-agnostic.
 
-* a clearly defined purpose
-* a stable identity
-* reusable metadata
-* documentation
-* version history
-* composable interfaces where appropriate
-
-⸻
-
-## What Are Elements?
-
-An element is the smallest reusable piece that has value on its own.
-
-Examples include:
-
-* icons
-* illustrations
-* diagrams
-* UI components
-* color palettes
-* typography definitions
-* prompts
-* templates
-* checklists
-* architectural patterns
-* code snippets
-* infrastructure modules
-* workflow fragments
-* educational exercises
-* animations
-* sound effects
-* documentation blocks
-* metadata schemas
-
-Elements are intentionally independent.
-
-They become powerful when combined with other elements.
+It does not define what a character, story, map, brand, or infrastructure element looks like. Instead, it defines how such definitions are expressed.
 
 ⸻
 
-## Composition
+## How It Works
 
-Open Engineering follows a simple principle:
+Open Engineering distinguishes three layers.
 
-Create once. Compose everywhere.
+1. Element Definition Schema
 
-Instead of duplicating assets across repositories, projects reference and combine reusable elements.
+The Element Definition Schema specifies the structure that every element definition must follow.
 
-For example:
+It answers the question:
 
-* Open Engineering Characters compose character elements into complete characters.
-* Open Engineering Stories compose story elements into educational narratives.
-* Open Engineering Maps compose map elements into navigable maps.
-* Open Engineering Motion Pictures compose cinematic elements into films and animations.
-* Future projects may compose entirely different experiences from the same underlying elements.
+“What does an element definition look like?”
 
-Composition encourages consistency while allowing unlimited creativity.
+This schema is maintained by Open Engineering Elements.
 
-⸻
+2. Element Definitions
 
-## Repository Structure
+Individual organizations define their own kinds of elements by creating Element Definitions that conform to the Element Definition Schema.
 
-A typical organization structure may look like:
-```
-source/
-├── architecture/
-├── audio/
-├── code/
-├── diagrams/
-├── documentation/
-├── education/
-├── infrastructure/
-├── maps/
-├── metadata/
-├── motion/
-├── prompts/
-├── schemas/
-├── templates/
-├── text/
-├── ui/
-├── visual/
-└── workflows/
-```
-The exact structure evolves as new classes of reusable elements emerge.
+Examples include repositories that define their own engineering concepts, visual assets, educational building blocks, infrastructure artifacts, or any other reusable domain-specific elements.
+
+Each organization owns its own definitions while sharing a common foundation.
+
+3. Elements
+
+Concrete elements are then created from those definitions.
+
+These elements become the reusable building blocks that applications, documentation, websites, presentations, AI systems, games, videos, and other experiences can compose into larger solutions.
 
 ⸻
 
-## Design Principles
+## Separation of Concerns
 
-Every element should strive to be:
+Open Engineering Elements deliberately avoids knowledge of any specific engineering domain.
 
-* reusable before specialized
-* composable before monolithic
-* documented before published
-* versioned before replaced
-* discoverable before duplicated
-* open before proprietary
-* understandable by both humans and AI
+Instead, responsibility is divided as follows:
 
-⸻
+* Open Engineering Elements defines how Element Definitions are described.
+* Domain-specific organizations define their own Element Definitions.
+* Applications and ecosystems create and compose Elements from those definitions.
 
-## AI-First
-
-Open Engineering Elements is designed with AI-assisted engineering in mind.
-
-Each element should be understandable not only by people but also by AI agents capable of discovering, selecting, combining, and extending reusable components.
-
-Rich metadata and clear documentation enable intelligent composition across repositories and ecosystems.
-
-⸻
-
-## Open by Design
-
-Although created for the Open Engineering ecosystem, these elements are intentionally generic whenever possible.
-
-Other organizations, products, educational platforms, games, and AI systems are encouraged to build upon them.
-
-The goal is not ownership.
-
-The goal is reuse.
-
-⸻
-
-## Relationship to Other Open Engineering Organizations
-
-Open Engineering Elements provides foundational building blocks used throughout the ecosystem.
-
-Examples include:
-
-* Open Engineering Characters builds reusable characters from character elements.
-* Open Engineering Stories builds educational stories from story elements.
-* Open Engineering Maps builds maps from reusable map elements.
-* Open Engineering Motion Pictures builds films and animations from cinematic elements.
-* Open Engineering Signatures builds consistent visual identities from branding elements.
-
-Many future Open Engineering organizations will similarly assemble reusable elements into higher-level capabilities.
-
-⸻
-
-## Contributing
-
-We welcome contributions that improve the quality, consistency, discoverability, and reusability of engineering elements.
-
-Whether your contribution is visual, technical, educational, architectural, or conceptual, every reusable element strengthens the entire ecosystem.
+This separation allows new domains to emerge without requiring changes to the foundation.
 
 ⸻
 
 ## Vision
 
-We envision a future where engineering resembles construction with precision-crafted building blocks.
+Open Engineering aims to make engineering assets as composable as software components.
 
-Instead of reinventing solutions, engineers, educators, designers, creators, and AI systems compose reusable elements into new innovations.
+By sharing a common language for defining reusable elements, independent projects can collaborate while remaining loosely coupled.
 
-One reusable element.
+The result is an ecosystem where engineering knowledge can be defined once, reused many times, and composed into increasingly sophisticated systems.
 
-Unlimited possibilities.
+Open Engineering Elements provides the foundation that makes this possible.
