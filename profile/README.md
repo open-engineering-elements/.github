@@ -2,6 +2,8 @@
 
 Building engineering from reusable elements.
 
+![Open Engineering Elements hero banner](./hero-banner.jpg)
+
 Open Engineering Elements is part of the Open Engineering ecosystem.
 
 Its mission is to create, maintain, and evolve reusable engineering elements that can be composed into larger artifacts, systems, experiences, and solutions.
