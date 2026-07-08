@@ -2,7 +2,7 @@
 
 Building engineering from reusable elements.
 
-![Open Engineering Elements hero banner](./hero-banner.jpg)
+![Open Engineering Elements hero banner](./hero-banner.png)
 
 Open Engineering Elements is part of the Open Engineering ecosystem.
 
